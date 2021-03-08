@@ -4,7 +4,8 @@
 @import 'libs/vendor';
 @import 'libs/breakpoints';
 @import 'libs/html-grid';
-@import 'fontawesome-all.min.css';
+//@import 'fontawesome.min.css';
+@import 'all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
 /*
@@ -440,7 +441,7 @@
 	}
 
 	input[type="checkbox"],
-	input[type="radio"], {
+	input[type="radio"] {
 		@include vendor('appearance', 'none');
 		display: block;
 		float: left;
@@ -1196,7 +1197,7 @@
 			}
 
 			input[type="checkbox"],
-			input[type="radio"], {
+			input[type="radio"] {
 				& + label {
 					color: _palette($p, fg);
 
@@ -1930,4 +1931,9 @@
 				background-color: darken(_palette(bg), 8);
 			}
 		}
+	}
+
+/* Other */
+	.full-width {
+		width: 100%;
 	}
