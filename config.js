@@ -7,7 +7,8 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: '/tlenoterapia-tychy/', // This path is subpath of your hosting https://domain/portfolio
+  // pathPrefix: '/tlenoterapia-tychy/', // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: '',
   heading: 'Oxy-Rehab Tlenoterapia ',
   subHeading: 'Zapraszamy na sesje tlenowe w Tychach ',
   explore: 'Dowiedz się więcej ',
