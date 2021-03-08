@@ -27,35 +27,27 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-58524d8d04b453c81c58.js"
+    "url": "webpack-runtime-08370514ac2ae9db54c6.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-11223ae120183b9e8a22.js"
+    "url": "app-6633832b3d60ce56d287.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3925b7f470ffc4229fbb9a4931a1d650"
+    "revision": "cee94b2d60a9be28e4d6ec32e4640ca2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-1972652a375cec723dd9.js"
-  },
-  {
-    "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f6081b83111aea4128c98944b7fafccc"
-  },
-  {
-    "url": "page-data/app-data.json",
-    "revision": "e9717081ae3fb9b9786ed6cecbdbada9"
   },
   {
     "url": "polyfill-2966d4d8fea208fd6f8f.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "cefa72c6a19c090332fab936c6414483"
+    "revision": "4fc5fc22bef181064c72037a063398e1"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +134,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/tlenoterapia-tychy`), ``)
+  pathname = pathname.replace(new RegExp(`^`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/tlenoterapia-tychy/app-11223ae120183b9e8a22.js`))) {
+  if (!resources || !(await caches.match(`/app-6633832b3d60ce56d287.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +152,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/tlenoterapia-tychy/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })
