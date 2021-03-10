@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import pic4 from '../assets/images/pic04.png';
 import pic5 from '../assets/images/pic05.jpg';
 import banner from '../assets/images/banner.jpg';
 const IndexPage = () => <Layout>

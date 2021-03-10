@@ -9,18 +9,18 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   // pathPrefix: '/tlenoterapia-tychy/', // This path is subpath of your hosting https://domain/portfolio
   pathPrefix: '',
-  heading: 'Oxy-Rehab Tlenoterapia ',
+  heading: 'Oxy-Rehab  ',
   subHeading: 'Zapraszamy na sesje tlenowe w Tychach ',
   explore: 'Dowiedz się więcej ',
   tekst1: 'Nasza komora hiperbaryczna wykorzystuje ciśnienie 1,3 ATA. Jest to nieiwazyjna metoda wprowadzania tlenu o stężeniu 93%, czyli o 30% wyższym niż ciśnienie atmosferyczne.',
-  info1: 'Wzmocnij odporność swojego organizmu!',
-  info11: 'Terapia tlenowa ma wszechstronny, pozytywny wpływ na nasze samopoczucie psychiczne i fizyczne. Pozwala zachować na dłużej młodość, dobre zdrowie, aktywuje siły witalne i odpornościowe',
+  info1: 'Wzmocnij odporność swojego organizmu w naturalny sposób!',
+  info11: 'Sesja w kapsule hiperbarycznej biostymuluje organizm, likwiduje zakażenia oraz odżywia niedotlenione komórki, a w rezultacie wzmacnia układ immunologiczny.',
   info2: 'Zyskaj wsparcie w trakcie aktualnej rehabilitacji',
-  info22: 'Tlenoterapia hiperbaryczna wspiera proces aktualnie prowadzonych terapii i rehabilitacji. Przyśpiesz oczekiwany rezultat zdrowia, aby Twój organizm funkcjonował wydajniej!',
+  info22: 'Tlenoterapia hiperbaryczna wspiera proces aktualnie prowadzonych terapii i rehabilitacji. Działa przeciwzapalnie i przeciwbólowo. Likwiduje obrzęki.',
   info3: 'Jak działa tlenoterapia?',
   info33: 'Terapia tlenowa ma wszechstronny, pozytywny wpływ na nasze samopoczucie psychiczne i fizyczne. Pozwala zachować na dłużej młodość, dobre zdrowie, aktywuje siły witalne i odpornościowe',
   info4: 'Jak wygląda zabieg?' ,
-  info40: 'Wchłanianie telenu w wyższym ciśnieniu niż atmosferyczne jest wielkorotnie większe.',
+  info40: 'Wchłanianie tlenu w wyższym ciśnieniu niż atmosferyczne jest wielokorotnie większe.',
   info41: ' Dlatego sesja w naszej komorze hiperbarycznej polega na podawaniu pacjentowi 93% tlenu w ciśnieniu 1.3 atmosfery przez 60- 80 minut',
   info44: [
     'aktywizacja komórek macierzystych,',
@@ -34,7 +34,7 @@ module.exports = {
       'wzrost sił życiowych',
   ],
   info5: 'Komora hiperbaryczna',
-  info55: 'Tlenoterapia hiperbaryczna wspiera proces aktualnie prowadzonych terapii i rehabilitacji. Przyśpiesz oczekiwany rezultat zdrowia, aby Twój organizm funkcjonował wydajniej!',
+  info55: 'Bezpieczne urządzenie o miękkiej konstrukcji zapewnia komfortową pozycję siedzącą lub leżącą. Może pomieścić dwie osoby z możliwością indywidualnego natlenienia np. osobę dorosłą z dzieckiem.',
   //zastosowania
   zastosowania1: 'Kardiologia',
   zastosowania11: 'Korzystny wpływ na dolegliwości o charakterze wieńcowym. Zmniejsza nasilenie objawów niewydolności serca, zapobiega zawałom mięśnia sercowego, reguluje ciśnienie tętnicze.',
@@ -58,6 +58,7 @@ module.exports = {
   kontakttel: '+48 516-555-597',
   kontaktul: ' ul. Legionów Polskich 40',
   kontaktty: ' 43-100 Tychy',
+  kontaktmail: 'gabinet@tlenoterapiatychy.pl',
 
   // social
   socialLinks: [

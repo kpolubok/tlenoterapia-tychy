@@ -7,7 +7,7 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.jpg';
+import pic4 from '../assets/images/pic04.png';
 import config from '../../config';
 
 const IndexPage = () => (
@@ -229,23 +229,27 @@ const IndexPage = () => (
                 <div className="col-6 col-12-xsmall">
                     <a href='tel:{config.kontakttel}'>{config.kontakttel}</a><br/>
                     {config.kontaktul} <br/>
-                    {config.kontaktty}
+                    {config.kontaktty} <br/>
+                    <a href="mailto:{config.kontaktmail}">{config.kontaktmail}</a><br/>
+                    {/* <a href="mailto: kpolubok@gmail.com">MANUFAKTURA KODU</a> */}
+                    
+                    <br/>
                 </div>
                 <div className="col-6 col-12-xsmall">
-                    <iframe width="50%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
                             src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Poland,%20Tychy,%20Legion%C3%B3w%20Polskich%2040+(TlenoterapiaTychy)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
                     <a href="https://www.maps.ie/route-planner.htm"></a>
                 </div>
 
 
-                 <form method="post" action="#">
+                 {/* <form method="post" action="#">
               <div className="row gtr-uniform">
                 <div className="col-6 col-12-xsmall">
                   <input type="text" name="demo-name" id="demo-name" defaultValue="" placeholder="Name" />
                 </div>
                 <div className="col-6 col-12-xsmall">
                   <input type="email" name="demo-email" id="demo-email" defaultValue="" placeholder="Email" />
-                </div>
+                </div> */}
                 {/*<div className="col-12">*/}
 								{/*<select name="demo-category" id="demo-category">*/}
 									{/*<option value="">- Category -</option>*/}
@@ -277,7 +281,7 @@ const IndexPage = () => (
 							{/*</div>*/}
 
 
-                <div className="col-12">
+                {/* <div className="col-12">
                   <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
                 </div>
                 <div className="col-12">
@@ -287,7 +291,7 @@ const IndexPage = () => (
                   </ul>
                 </div>
               </div>
-            </form>
+            </form> */}
         </section>
 
         {/* <header>
