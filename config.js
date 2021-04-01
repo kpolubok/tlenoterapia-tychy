@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'tlenoteriapia tychy', // <title>
+  siteTitle: 'Oxy-Rehab Tlenoterapia Tychy', // <title>
   manifestName: 'Spectral',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -58,7 +58,7 @@ module.exports = {
   kontakttel: '+48 516-555-597',
   kontaktul: ' ul. Legionów Polskich 40',
   kontaktty: ' 43-100 Tychy',
-  kontaktmail: 'gabinet@tlenoterapiatychy.pl',
+  kontaktmail: 'tlenoterapiatychy.tychy@gmail.com',
 
   // social
   socialLinks: [
@@ -78,7 +78,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto: gabinet@tlenoterapiatychy.pl',
+      url: 'mailto: tlenoterapiatychy.tychy@gmail.com',
     },
   ],
 };

@@ -3,16 +3,20 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
-
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
-import pic4 from '../assets/images/pic04.png';
+import Price from '../components/Price';
+import { StaticImage } from "gatsby-plugin-image"
 import config from '../../config';
+
+// const pic4 = '../assets/images/pic04.png';
 
 const IndexPage = () => (
     <Layout>
         <section id="banner">
+            {/*<StaticImage*/}
+                {/*src='../assets/images/banner.jpg'*/}
+                {/*placeholder="blurred"*/}
+                {/*alt=""*/}
+            {/*/>*/}
             <div className="inner">
                 <h2>{config.heading}</h2>
                 <p>{config.subHeading}</p>
@@ -80,7 +84,14 @@ const IndexPage = () => (
         <section id="two" className="wrapper alt style2">
             <section className="spotlight">
                 <div className="image">
-                    <img src={pic1} alt=""/>
+                    {/*<img src={pic1} alt=""/>*/}
+                    {/*<StaticImage src="../assets/images/pic02.jpg" alt="A dinosaur" />*/}
+                    <StaticImage
+                        src='../assets/images/pic01.jpg'
+                        placeholder="blurred"
+                        alt=""
+                        layout="fullWidth"
+                    />
                 </div>
                 <div className="content">
                     <h2>
@@ -93,7 +104,13 @@ const IndexPage = () => (
             </section>
             <section className="spotlight">
                 <div className="image">
-                    <img src={pic2} alt=""/>
+                    {/*<img src={pic2} alt=""/>*/}
+                    <StaticImage
+                        src='../assets/images/pic02.jpg'
+                        placeholder="blurred"
+                        alt=""
+                        layout="fullWidth"
+                    />
                 </div>
                 <div className="content">
                     <h2>
@@ -107,7 +124,13 @@ const IndexPage = () => (
 
             <section className="spotlight">
                 <div className="image">
-                    <img src={pic3} alt=""/>
+                    {/*<img src={pic3} alt=""/>*/}
+                    <StaticImage
+                        src='../assets/images/pic03.jpg'
+                        placeholder="blurred"
+                        alt=""
+                        layout="fullWidth"
+                    />
                 </div>
                 <div className="content">
                     <h2>
@@ -120,7 +143,13 @@ const IndexPage = () => (
             </section>
             <section className="spotlight">
                 <div className="image">
-                    <img src={pic4} alt=""/>
+                    {/*<img src={pic4} alt=""/>*/}
+                    <StaticImage
+                        src='../assets/images/pic04.png'
+                        placeholder="blurred"
+                        alt=""
+                        layout="fullWidth"
+                    />
                 </div>
                 <div className="content">
                     <h2>
@@ -204,7 +233,9 @@ const IndexPage = () => (
             </div>
         </section>
 
-
+<section id="price">
+    <Price/>
+</section>
 
         {/*KONTAKTY*/}
         <section id="cta" className="wrapper style4">
@@ -227,12 +258,12 @@ const IndexPage = () => (
 
 
                 <div className="col-6 col-12-xsmall">
-                    <a href='tel:{config.kontakttel}'>{config.kontakttel}</a><br/>
+                    <a href={'tel:'+config.kontakttel}>{config.kontakttel}</a><br/>
                     {config.kontaktul} <br/>
                     {config.kontaktty} <br/>
-                    <a href="mailto:{config.kontaktmail}">{config.kontaktmail}</a><br/>
+                    <a href={'mailto:'+config.kontaktmail}>{config.kontaktmail}</a><br/>
                     {/* <a href="mailto: kpolubok@gmail.com">MANUFAKTURA KODU</a> */}
-                    
+
                     <br/>
                 </div>
                 <div className="col-6 col-12-xsmall">

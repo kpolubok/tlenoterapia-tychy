@@ -18,7 +18,7 @@ class Layout extends Component {
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
       this.setState({ isPreloaded: false });
-    }, 100);
+    }, 0);
   }
 
   componentWillUnmount() {
@@ -46,8 +46,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Spectral' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Zapraszamy na sesje tlenowe w Tychach! Leczenie tlenem. Lepsze samopoczucie' },
+                { name: 'keywords', content: 'Tlenoterapia Tychy,Tlenoterapia Śląsk,Tlenoterapia Katowice,Komora Hiperbaryczna,Komora hiperbaryczna Tychy,Leczenie tlenem' },
               ]}
             >
               <html lang="en" />
@@ -60,7 +60,7 @@ class Layout extends Component {
               }
             >
               <div id="page-wrapper">
-                {/*<SideBar fullMenu={fullMenu} />*/}
+                <SideBar fullMenu={fullMenu} />
                 {children}
                 <Footer />
               </div>
