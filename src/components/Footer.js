@@ -21,7 +21,7 @@ export default function Footer() {
                  <li>&copy;Build by <a href="mailto: kpolubok@gmail.com">MANUFAKTURA KODU</a></li>
             {/*<li>Spectral</li>*/}
         <li>
-          Design & Licensed under the CCA : <a href="http://html5up.net">HTML5 UP</a>
+          {/*Design & Licensed under the CCA : <a href="http://html5up.net">HTML5 UP</a>*/}
         </li>
       </ul>
         </footer>

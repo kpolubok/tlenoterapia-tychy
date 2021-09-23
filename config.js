@@ -56,9 +56,9 @@ module.exports = {
   zastosowania91: 'Poprawia ukrwienie ścian jelit i redukuje ilość gazów jelitowych. Wspiera regenerację stanów zapalnych, np. jelita cienkiego, jelita grubego, trzustki. Zabija szkodliwe bakterie i wirusy.',
 // kontakt
   kontakttel: '+48 516-555-597',
-  kontaktul: ' ul. Legionów Polskich 40',
-  kontaktty: ' 43-100 Tychy',
-  kontaktmail: 'tlenoterapiatychy.tychy@gmail.com',
+  kontaktul: ' Kościelna 1G',
+  kontaktty: ' 43-155 Bieruń',
+  kontaktmail: 'tlenoterapiatychy@gmail.com',
 
   // social
   socialLinks: [
@@ -78,7 +78,7 @@ module.exports = {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto: tlenoterapiatychy.tychy@gmail.com',
+      url: 'mailto: tlenoterapiatychy@gmail.com',
     },
   ],
 };

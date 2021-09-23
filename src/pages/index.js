@@ -262,13 +262,14 @@ const IndexPage = () => (
                     {config.kontaktul} <br/>
                     {config.kontaktty} <br/>
                     <a href={'mailto:'+config.kontaktmail}>{config.kontaktmail}</a><br/>
-                    {/* <a href="mailto: kpolubok@gmail.com">MANUFAKTURA KODU</a> */}
-
                     <br/>
                 </div>
                 <div className="col-6 col-12-xsmall">
+                    {/*<iframe*/}
+                    {/*    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.3966766055!2d19.160624215677974!3d50.078859621950784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716b75e23f4fd57%3A0x59be80c904148aa1!2sOXY-REHAB%20Tlenoterapia%20Hiperbaryczna!5e0!3m2!1spl!2spl!4v1632381786921!5m2!1spl!2spl"*/}
+                    {/*    width="100%" height="400" style="border:0;" allowFullScreen="" loading="lazy"></iframe>*/}
                     <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                            src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Poland,%20Tychy,%20Legion%C3%B3w%20Polskich%2040+(TlenoterapiaTychy)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.3966766055!2d19.160624215677974!3d50.078859621950784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4716b75e23f4fd57%3A0x59be80c904148aa1!2sOXY-REHAB%20Tlenoterapia%20Hiperbaryczna!5e0!3m2!1spl!2spl!4v1632381786921!5m2!1spl!2spl"></iframe>
                     <a href="https://www.maps.ie/route-planner.htm"></a>
                 </div>
 
