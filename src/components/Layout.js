@@ -46,8 +46,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Zapraszamy na sesje tlenowe w Tychach! Leczenie tlenem. Lepsze samopoczucie' },
-                { name: 'keywords', content: 'Tlenoterapia Tychy,Tlenoterapia Śląsk,Tlenoterapia Katowice,Komora Hiperbaryczna,Komora hiperbaryczna Tychy,Leczenie tlenem' },
+                { name: 'description', content: 'Zapraszamy na sesje tlenowe w Bieruniu! Leczenie tlenem. Lepsze samopoczucie' },
+                { name: 'keywords', content: 'Tlenoterapia Bieruń,Tlenoterapia Śląsk,Tlenoterapia Tychy,Tlenoterapia Katowice,Komora Hiperbaryczna,Komora hiperbaryczna Bieruń,Komora hiperbaryczna Tychy,Leczenie tlenem' },
               ]}
             >
                 {/*<meta http-equiv='cache-control' content='no-cache'/>*/}

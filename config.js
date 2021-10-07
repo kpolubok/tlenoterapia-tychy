@@ -10,7 +10,7 @@ module.exports = {
   // pathPrefix: '/tlenoterapia-tychy/', // This path is subpath of your hosting https://domain/portfolio
   pathPrefix: '',
   heading: 'Oxy-Rehab  ',
-  subHeading: 'Zapraszamy na sesje tlenowe w Tychach ',
+  subHeading: 'Zapraszamy na sesje tlenowe w Bieruniu ',
   explore: 'Dowiedz się więcej ',
   tekst1: 'Nasza komora hiperbaryczna wykorzystuje ciśnienie 1,3 ATA. Jest to nieiwazyjna metoda wprowadzania tlenu o stężeniu 93%, czyli o 30% wyższym niż ciśnienie atmosferyczne.',
   info1: 'Wzmocnij odporność swojego organizmu w naturalny sposób!',
@@ -66,13 +66,13 @@ module.exports = {
       style: 'brands',
       icon: 'fa-instagram',
       name: 'Instagram',
-      url: 'https://www.instagram.com/tlenoterapia.tychy/',
+      url: 'https://www.instagram.com/tlenoterapia.bierun/',
     },
     {
       style: 'brands',
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://www.facebook.com/Tlenoterapiatychy',
+      url: 'https://www.facebook.com/Tlenoterapiabierun',
     },
     {
       style: 'solid',
